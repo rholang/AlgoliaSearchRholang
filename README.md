@@ -8,12 +8,12 @@ version of DocSearch. DocSearch scaper is used as search for the [rholang/rholan
 - Install Python 3.6. Only this version have no error messages displayed (check that environment variables for python are set).
 - Install pipenv
   - run command line with admin rights
-  - pip install pipenv
+  - $ pip install pipenv
 
 ## Setup project
 
 - Open this project with vscode -> cd into /DocSearch-Srapper
-- pipenv install --dev
+- $ pipenv install --dev
 - rename .env.example to .env
 
 ## Folder structure
@@ -29,4 +29,4 @@ version of DocSearch. DocSearch scaper is used as search for the [rholang/rholan
 
 ## Start scrapping
 
-- pipenv run python ./docsearch run ./configs/website.json
+- $ pipenv run python ./docsearch run ./configs/website.json
