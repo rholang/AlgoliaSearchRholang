@@ -5,15 +5,15 @@ version of DocSearch. DocSearch scaper is used as search for the [rholang/rholan
 
 ## Pre-requisites
 
-- Install Python 3.6. Only this version have no error messages displayed (check that environment variables for python are set).
+- Install Python 3.6. Only this version have no error messages displayed (check that environment variables for python are set). Python has to be included in PATH Var.
 - Install pipenv
   - run command line with admin rights
   - $ pip install pipenv
 
 ## Setup project
 
-- Open this project with vscode -> cd into /DocSearch-Srapper
-- $ pipenv install --dev
+- Open this project with vscode
+- $ pipenv install
 - rename .env.example to .env
 
 ## Folder structure
@@ -25,7 +25,7 @@ version of DocSearch. DocSearch scaper is used as search for the [rholang/rholan
     - change CHROMEDRIVER_PATH to your path (in folder chromedriver_win32)
 
 - config/website.json
-  - config, what css selector to parse on your website
+  - config, what css selector to parse on your website and from which website.
 
 ## Start scrapping
 
